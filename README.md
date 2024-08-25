@@ -136,8 +136,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 - [FastAPI](https://fastapi.tiangolo.com/) - A modern, fast (high-performance) web framework for building APIs with Python 3.7+.
 - [gtts](https://pypi.org/project/gTTS/) - A Python library and CLI tool to interface with Google Text-to-Speech API.
-
-## Architecture Diagram
-
-![Architecture Diagram](docs/architecture_diagram.png)
-```
