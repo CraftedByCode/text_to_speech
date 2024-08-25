@@ -88,6 +88,20 @@ Converts text to speech and returns a URL to the generated audio file.
 
 - `audio_url`: URL to the generated audio file.
 
+#### Request
+
+**Method:** `GET`
+
+#### Response
+
+**Response Body:**
+
+
+
+- `audio_url`: URL to the generated audio file.
+
+
+
 ## Contributing
 
 Contributions are welcome! Please follow these steps to contribute:
