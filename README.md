@@ -141,16 +141,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ![Architecture Diagram](docs/architecture_diagram.png)
 ```
-
-### Summary of Sections:
-- **Features**: Highlights what the API does.
-- **Badges**: Shows the status of the project.
-- **Table of Contents**: Facilitates easy navigation.
-- **Installation**: Provides steps to get the project up and running.
-- **Running the Server**: Instructions for starting the FastAPI server.
-- **Usage**: How to access and use the API.
-- **API Documentation**: Details the `/convert` endpoint.
-- **Contributing**: Guidelines for contributing to the project.
-- **License**: Information on the project's license.
-- **Acknowledgments**: Credits to the tools and libraries used.
-- **Architecture Diagram**: Visual representation of the project's architecture.
