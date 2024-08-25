@@ -4,3 +4,4 @@
 ![Version](https://img.shields.io/badge/version-1.0.0-brightgreen)
 ![Last Commit](https://img.shields.io/github/last-commit/CraftedByCode/text_to_speech)
 ![GitHub License](https://img.shields.io/github/license/CraftedByCode/text_to_speech?label=license&logo=github)
+![GitHub License](https://img.shields.io/github/license/CraftedByCode/text_to_speech)
