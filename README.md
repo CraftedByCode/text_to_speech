@@ -21,7 +21,6 @@ A FastAPI-based backend service for converting text to speech using the Google T
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
-- [Architecture Diagram](#architecture-diagram)
 
 ## Installation
 
