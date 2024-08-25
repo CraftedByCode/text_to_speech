@@ -96,6 +96,7 @@ Converts text to speech and returns a URL to the generated audio file.
 
 **Response Body:**
 
+![Sample response image](./image.png)
 
 
 - `audio_url`: URL to the generated audio file.
