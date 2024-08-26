@@ -47,9 +47,11 @@ python -m venv env
 
 :: Install dependencies
 pip install -r requirements.txt
-```bash
-#!/bin/bash
+```
 
+## For mac/linux
+
+```bash
 # Create a virtual environment
 python -m venv env
 
@@ -59,6 +61,7 @@ source env/bin/activate
 # Install dependencies
 pip install -r requirements.txt
 ```
+
 ## Running the Server
 
 To start the FastAPI server:
