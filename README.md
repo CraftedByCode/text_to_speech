@@ -30,13 +30,35 @@ git clone https://github.com/CraftedByCode/text_to_speech.git
 cd text_to_speech
 ```
 
-Create a virtual environment and install dependencies:
-```bash
+# Setup Script for Virtual Environment
+
+This script will help you set up a virtual environment and install dependencies for different operating systems.
+
+## For Windows (Command Prompt or PowerShell)
+
+```cmd
+@echo off
+
+:: Create a virtual environment
 python -m venv env
+
+:: Activate the virtual environment
+.\env\Scripts\activate
+
+:: Install dependencies
+pip install -r requirements.txt
+```bash
+#!/bin/bash
+
+# Create a virtual environment
+python -m venv env
+
+# Activate the virtual environment
 source env/bin/activate
+
+# Install dependencies
 pip install -r requirements.txt
 ```
-
 ## Running the Server
 
 To start the FastAPI server:
