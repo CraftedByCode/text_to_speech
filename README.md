@@ -32,7 +32,7 @@ cd text_to_speech
 
 # Setup Script for Virtual Environment
 
-This script will help you set up a virtual environment and install dependencies for different operating systems.
+This will help you set up a virtual environment and install dependencies
 
 ## For Windows (Command Prompt or PowerShell)
 
