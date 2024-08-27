@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 from starlette import status
-from tts.repository import tts
-from tts import schemas
+from text_to_speech.repository import tts
+from text_to_speech import schemas
 
 router = APIRouter()
 
