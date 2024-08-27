@@ -5,13 +5,13 @@ description = "a text-to-speech app"
 authors = ["Yogesh <yoge.self@gmail.com>"]
 license = "MIT"
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.12"
 fastapi = "^0.112.2"
 uvicorn = "^0.30.6"
 gtts = "^2.5.3"
-
 
 [build-system]
 requires = ["poetry-core"]
