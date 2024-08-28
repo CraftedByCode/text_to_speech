@@ -33,12 +33,13 @@ cd text_to_speech
 # Setup Script for Application
 
 ```bash
-# Poetry Installaation: [docs](https://python-poetry.org/)  
+# Poetry Installaation 
 pip install poetry
 
 # Activate the virtual environment and setup a project
 poetry install
 ```
+more about poetry : [docs](https://python-poetry.org/) 
 
 ## Running the Server
 
