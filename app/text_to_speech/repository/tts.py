@@ -11,14 +11,14 @@ def upload_data(dialogue, language):
 def text_to_speech(dialogue: str, language: str = "en"):
     try:
         text = t2t(dialogue, lang=language)
-        output_path = "tts/audio"
+        output_path = "/tmp"
         if os.path.exists(output_path):
             text.save(f"{output_path}/output.mp3")
         else:
             os.makedirs(output_path, exist_ok=True)
             text.save(f"{output_path}/output.mp3")
 
-        return {"Audio file 🎼 ": "http://127.0.0.1:8000/audio/output.mp3"}
+        return {"Audio file 🎼 Generated!"}
     except Exception as e:
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, detail={"issue": str(e)}
@@ -26,7 +26,7 @@ def text_to_speech(dialogue: str, language: str = "en"):
 
 
 def retrive_audio():
-    output_file = "tts/audio/output.mp3"
+    output_file = "/tmp/output.mp3"
     if os.path.isfile(output_file):
         return FileResponse(output_file, media_type="audio/mpeg")
     

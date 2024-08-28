@@ -6,3 +6,4 @@ __pycache__/
 *.db
 .DS_Store
 output.mp3
+.vercel
