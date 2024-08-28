@@ -33,10 +33,10 @@ cd text_to_speech
 # Setup Script for Application
 
 ```bash
-# Create a virtual environment
+# Poetry Installaation: [docs](https://python-poetry.org/)  
 pip install poetry
 
-# Activate the virtual environment
+# Activate the virtual environment and setup a project
 poetry install
 ```
 
