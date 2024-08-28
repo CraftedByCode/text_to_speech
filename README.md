@@ -30,43 +30,21 @@ git clone https://github.com/CraftedByCode/text_to_speech.git
 cd text_to_speech
 ```
 
-# Setup Script for Virtual Environment
-
-This will help you set up a virtual environment and install dependencies
-
-## For Windows (Command Prompt or PowerShell)
-
-```cmd
-@echo off
-
-:: Create a virtual environment
-python -m venv env
-
-:: Activate the virtual environment
-.\env\Scripts\activate
-
-:: Install dependencies
-pip install -r requirements.txt
-```
-
-## For mac/linux
+# Setup Script for Application
 
 ```bash
 # Create a virtual environment
-python -m venv env
+pip install poetry
 
 # Activate the virtual environment
-source env/bin/activate
-
-# Install dependencies
-pip install -r requirements.txt
+poetry install
 ```
 
 ## Running the Server
 
 To start the FastAPI server:
 ```bash
-uvicorn app.main:app --reload
+poetry run uvicorn app.main:app --reload
 ```
 
 The server will be available at `http://localhost:8000`.
@@ -76,6 +54,12 @@ The server will be available at `http://localhost:8000`.
 Access the interactive API documentation at:
 - [Swagger UI](http://localhost:8000/docs)
 - [ReDoc](http://localhost:8000/redoc)
+
+## Example request
+POST `/convert`
+```
+curl -X POST "http://localhost:8000/convert" -H "Content-Type: application/json" -d '{"text": "Hello, world!", "lang": "en"}'
+```
 
 ## API Documentation
 
