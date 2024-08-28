@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from text_to_speech.repository import common
+from app.text_to_speech.repository import common
 
 router = APIRouter()
 

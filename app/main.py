@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
-from text_to_speech.router.tts import router as tts
-from text_to_speech.router.home import router as home
+from app.text_to_speech.router.tts import router as tts
+from app.text_to_speech.router.home import router as home
 
 app = FastAPI()
 
