@@ -14,6 +14,8 @@ uvicorn = "^0.30.6"
 gtts = "^2.5.3"
 sqlalchemy = "^2.0.32"
 psycopg2-binary = "^2.9.9"
+openai = "^1.42.0"
+deepgram-sdk = "^3.5.1"
 
 [build-system]
 requires = ["poetry-core"]
