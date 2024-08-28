@@ -57,18 +57,23 @@ Access the interactive API documentation at:
 - [ReDoc](http://localhost:8000/redoc)
 
 ## Example request
-POST `/convert`
+POST `/text`
 ```
-curl -X POST "http://localhost:8000/convert" -H "Content-Type: application/json" -d '{"text": "Hello, world!", "lang": "en"}'
+curl -X POST "http://localhost:8000/text" -H "Content-Type: application/json" -d '{"text": "Hello, world!", "lang": "en"}'
+```
+POST `/speech`
+```
+curl -X POST "http://localhost:8000/audio" -H "Content-Type: audio/mpeg" --data-binary "@path/to/your/audiofile.mp3"
+
 ```
 
 ## API Documentation
 
 The API provides the following endpoint:
 
-### `/convert`
+### `/text`
 
-Converts text to speech and returns a URL to the generated audio file.
+Converts text to speech and store it.
 
 #### Request
 
